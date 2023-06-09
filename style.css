@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 60%;
+  height: 60%;
+  background-color: rgb(24, 24, 24);
+  border-radius: 6px;
+  box-shadow: 20px 20px 30px rgb(17, 17, 17);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  width: 85%;
+  margin-top: 65px;
+  height: 25%;
+  border-radius: 5px;
+  background-color: rgb(41, 41, 41);
+  box-shadow: 10px 10px 15px rgb(19, 19, 19);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.random {
+  min-width: 140px;
+  height: 85%;
+  background-color: rgb(24, 24, 24);
+  margin: 0px 18px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  box-shadow: 5px 5px 10px rgb(17, 17, 17);
+}
+
+.animation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 0px;
+}
+
+.rain {
+  animation: rain 3.6s;
+}
+
+.arrow {
+  width: 70px;
+  position: absolute;
+  top: 25px;
+}
+
+.first {
+  margin-left: 45px;
+}
+
+@keyframes rain {
+  0% {
+    right: 0px;
+  }
+
+  80% {
+    right: 1400px;
+  }
+
+  100% {
+    right: 0px;
+  }
+}
+
+.btn {
+  width: 85%;
+  height: 15%;
+  background-color: rgb(41, 41, 41);
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 15px rgb(19, 19, 19);
+  transition: 0.4s;
+  color: white;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 15px 15px 20px rgb(19, 19, 19);
+}
+
+.btnTwo {
+  width: 85%;
+  height: 15%;
+  background-color: rgb(41, 41, 41);
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 15px rgb(19, 19, 19);
+  transition: 0.4s;
+  color: white;
+  font-size: 35px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+.btnTwo:hover {
+  transform: scale(1.05);
+  box-shadow: 15px 15px 20px rgb(19, 19, 19);
+}
+
+.flex {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.second {
+  width: 85%;
+  height: 15%;
+  background-color: rgb(41, 41, 41);
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 15px rgb(19, 19, 19);
+  transition: 0.4s;
+  color: white;
+  font-size: 35px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+.second:hover {
+  transform: scale(1.05);
+  box-shadow: 15px 15px 20px rgb(19, 19, 19);
+}
+
+.promt {
+  width: 100%;
+  height: 100%;
+  background:rgba(0, 0, 0, 0.6);
+  display: none;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-two {
+  width: 30%;
+  height: 30%;
+  border-radius: 5px;
+  background-color: rgb(107, 107, 107);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.text {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  margin-top: 30px;
+}
+
+.white {
+  color: white;
+  font-family: 'Ubuntu';
+  font-size: 30px;
+}
+
+.random-number {
+  margin-left: 8px;
+}
+
+.reject {
+  width: 70%;
+  height: 30%;
+  color: white;
+  background-color: rgb(24, 24, 24);
+  border-radius: 5px;
+  position: absolute;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu';
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+}
